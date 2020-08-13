@@ -1,0 +1,23 @@
+name: array_object_adapter
+description: Adapter that is similar to the ObjectAdapter (ArrayObjectAdapter) from the Leanback support library.
+version: 0.0.1
+author: Michael Krause
+homepage: https://github.com/michaeldonath
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+  flutter: ">=1.12.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # reactive programming: additional capabilities to dart streams and stream-controllers.
+  rxdart: ^0.24.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.6.0
+
+flutter:
+  uses-material-design: false

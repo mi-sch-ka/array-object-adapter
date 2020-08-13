@@ -1,0 +1,10 @@
+name: array_object_adapter_example
+description: An example project for the flutter array_object_adapter.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  array_object_adapter:
+    path: ../
+flutter:
+  uses-material-design: false
