@@ -18,6 +18,8 @@ import 'package:array_object_adapter/src/presenter_selector.dart';
 import 'package:array_object_adapter/src/single_presenter_selector.dart';
 import 'package:flutter/widgets.dart';
 
+/// Provides access to a data model and is
+/// decoupled from the presentation of the items via [PresenterSelector].
 class ArrayObjectAdapter extends BaseObservable<dynamic> {
   ArrayObjectAdapter({@required PresenterSelector presenterSelector})
       : _presenterSelector = presenterSelector;

@@ -17,6 +17,7 @@ import 'package:array_object_adapter/src/no_presenter.dart';
 import 'package:array_object_adapter/src/presenter.dart';
 import 'package:array_object_adapter/src/presenter_selector.dart';
 
+/// A ClassPresenterSelector selects a [Presenter] based on the item's type.
 class ClassPresenterSelector implements PresenterSelector {
   final List<Presenter> _presenters = [];
 

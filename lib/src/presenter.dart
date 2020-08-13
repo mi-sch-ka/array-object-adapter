@@ -13,6 +13,7 @@
  */
 import 'package:flutter/widgets.dart';
 
+/// A Presenter is used to generate Views and bind Objects to them on demand.
 abstract class Presenter {
 
   Widget createView(BuildContext context, Object item);

@@ -3,7 +3,7 @@
 Adapter that is similar to the ObjectAdapter (ArrayObjectAdapter) from the Android Leanback support library.
 
 ## Getting started
-You should ensure that you add the router as a dependency in your flutter project.
+You should ensure that you add the `array_object_adapter` as a dependency in your flutter project.
 
 ``` yml
 dependencies:

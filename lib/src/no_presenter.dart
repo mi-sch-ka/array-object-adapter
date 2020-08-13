@@ -14,9 +14,9 @@
 import 'package:array_object_adapter/src/presenter.dart';
 import 'package:flutter/widgets.dart';
 
+/// Simple Placeholder if no Presenter matched.
+/// Placeholder to support using not null properties.
 class NoPresenter implements Presenter {
-
   @override
   Widget createView(BuildContext context, Object item) => Container();
-
 }

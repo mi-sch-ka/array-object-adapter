@@ -13,8 +13,9 @@
  */
 import 'package:array_object_adapter/src/presenter.dart';
 
+/// A PresenterSelector is used to obtain a [Presenter] for a given Object.
+/// Similar to [Presenter],  PresenterSelector is stateless.
 abstract class PresenterSelector {
-
   List<Presenter> get presenters;
 
   Presenter getPresenter(item);
