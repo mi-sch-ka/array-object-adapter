@@ -1,8 +1,10 @@
 name: array_object_adapter
-description: Adapter that is similar to the ObjectAdapter (ArrayObjectAdapter) from the Android Leanback support library.
-version: 0.0.2-rc.1
-homepage: https://www.gal-digital.com
-repository: https://github.com/michaeldonath
+description: >-
+  Adapter that is similar to the ObjectAdapter (ArrayObjectAdapter) from the Android Leanback support library.
+version: 0.0.2
+homepage: https://github.com/michaeldonath
+repository: https://github.com/michaeldonath/array-object-adapter
+issue_tracker: https://github.com/michaeldonath/array-object-adapter/issues
 
 environment:
   sdk: ">=2.6.0 <3.0.0"
