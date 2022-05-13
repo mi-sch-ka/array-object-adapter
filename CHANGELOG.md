@@ -1,3 +1,8 @@
+## [1.0.0] 13.05.2022
+
+* update dependency
+* support null safety
+
 ## [0.0.2] 19.08.2020
 
 * release version 0.0.2

@@ -1,5 +1,7 @@
 # Array Object Adapter
 
+[![Pub](https://img.shields.io/pub/v/array_object_adapter.svg)](https://pub.dartlang.org/packages/array_object_adapter)
+
 Adapter that is similar to the ObjectAdapter (ArrayObjectAdapter) from the Android Leanback support library.
 
 ## Getting started
@@ -7,7 +9,7 @@ You should ensure that you add the `array_object_adapter` as a dependency in you
 
 ``` yml
 dependencies:
-    array_object_adapter: ^0.0.2
+    array_object_adapter: ^1.0.0
 ```
  
 You should then run flutter packages upgrade or update your packages in IntelliJ.
