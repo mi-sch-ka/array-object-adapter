@@ -1,6 +1,9 @@
 name: array_object_adapter_example
 description: An example project for the flutter array_object_adapter.
 
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
