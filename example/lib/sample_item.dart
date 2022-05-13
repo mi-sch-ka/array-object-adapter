@@ -11,10 +11,9 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-import 'package:flutter/widgets.dart';
 
 abstract class BaseItem<T> {
-  BaseItem({@required this.id, @required this.value});
+  BaseItem({required this.id, required this.value});
 
   int id;
   T value;
