@@ -49,7 +49,7 @@ class ClassPresenterSelector implements PresenterSelector {
   List<Presenter> get presenters => _presenters;
 
   @override
-  Presenter getPresenter(item) {
+  Presenter? getPresenter(item) {
     var type = item.runtimeType;
     var presenter;
     do {

@@ -16,7 +16,7 @@ import 'dart:async';
 import 'package:rxdart/rxdart.dart';
 
 abstract class BaseObservable<T> extends Stream<T> implements Sink<T> {
-  BaseObservable({T value})
+  BaseObservable({required T value})
       : valueStreamController = BehaviorSubject.seeded(value);
 
   final BehaviorSubject<T> valueStreamController;
@@ -28,8 +28,8 @@ abstract class BaseObservable<T> extends Stream<T> implements Sink<T> {
   Future<void> close() async => await valueStreamController.close();
 
   @override
-  StreamSubscription<T> listen(void Function(T event) onData,
-      {Function onError, void Function() onDone, bool cancelOnError}) {
+  StreamSubscription<T> listen(void Function(T event)? onData,
+      {Function? onError, void Function()? onDone, bool? cancelOnError}) {
     return valueStreamController.listen(
       onData,
       onError: onError,

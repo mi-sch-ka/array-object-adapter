@@ -18,5 +18,5 @@ import 'package:array_object_adapter/src/presenter.dart';
 abstract class PresenterSelector {
   List<Presenter> get presenters;
 
-  Presenter getPresenter(item);
+  Presenter? getPresenter(item);
 }
