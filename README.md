@@ -1,4 +1,4 @@
-# Array Object Adapter
+<img src=".github/thumbnail.png"/>
 
 [![Pub](https://img.shields.io/pub/v/array_object_adapter.svg)](https://pub.dartlang.org/packages/array_object_adapter)
 
