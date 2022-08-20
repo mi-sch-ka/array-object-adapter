@@ -9,7 +9,7 @@ You should ensure that you add the `array_object_adapter` as a dependency in you
 
 ``` yml
 dependencies:
-    array_object_adapter: ^1.0.0
+    array_object_adapter: ^1.0.1
 ```
  
 You should then run flutter packages upgrade or update your packages in IntelliJ.
@@ -69,7 +69,7 @@ final items = <dynamic>[];
 ...
 
 adapter.setItems(items);
-```
+``` 
 
 Attach an adapter for the data to displayed to your view
 
