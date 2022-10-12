@@ -42,16 +42,16 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
   }
 
-  void onItemClicked(dynamic item){
+  void onItemClicked(dynamic item) {
     print("item has been clicked: $item");
   }
 
   void _seedAdapter() {
     final items = <dynamic>[];
     for (int i = 0; i < 100; i++) {
-      if(i % 2 == 0){
+      if (i % 2 == 0) {
         items.add(SampleItemA(i, 'A $i'));
-      } else if(i % 3 == 0) {
+      } else if (i % 3 == 0) {
         items.add(SampleItemC(i, 'C $i'));
       } else {
         items.add(SampleItemB(i, i));
@@ -105,7 +105,6 @@ class SampleBPresenter extends Presenter {
 typedef EventHandler = void Function(dynamic item);
 
 class SampleCPresenter extends Presenter {
-
   SampleCPresenter(this.callback);
 
   EventHandler callback;
