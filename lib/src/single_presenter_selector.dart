@@ -17,7 +17,6 @@ import 'package:array_object_adapter/src/presenter_selector.dart';
 /// A [PresenterSelector] that always returns the same [Presenter].
 /// Useful for rows of items of the same type that are all rendered the same way.
 class SinglePresenterSelector implements PresenterSelector {
-
   SinglePresenterSelector(this._presenter);
 
   final Presenter _presenter;
@@ -27,5 +26,4 @@ class SinglePresenterSelector implements PresenterSelector {
 
   @override
   Presenter getPresenter(item) => _presenter;
-
 }

@@ -21,10 +21,12 @@ import 'package:array_object_adapter/src/single_presenter_selector.dart';
 /// decoupled from the presentation of the items via [PresenterSelector].
 class ArrayObjectAdapter extends BaseObservable<dynamic> {
   ArrayObjectAdapter({required PresenterSelector presenterSelector})
-      : _presenterSelector = presenterSelector, super(value: []);
+      : _presenterSelector = presenterSelector,
+        super(value: []);
 
   ArrayObjectAdapter.from({required Presenter presenter})
-      : _presenterSelector = SinglePresenterSelector(presenter), super(value: []);
+      : _presenterSelector = SinglePresenterSelector(presenter),
+        super(value: []);
 
   final PresenterSelector _presenterSelector;
 
