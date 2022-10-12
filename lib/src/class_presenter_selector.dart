@@ -60,7 +60,7 @@ class ClassPresenterSelector implements PresenterSelector {
           return innerPresenter;
         }
       }
-    } while (presenter == null && type != null);
+    } while (presenter == null);
     presenter = presenter ?? NoPresenter();
     return presenter as Presenter;
   }
