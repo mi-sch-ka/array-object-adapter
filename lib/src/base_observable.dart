@@ -17,20 +17,20 @@ import 'package:rxdart/rxdart.dart';
 
 abstract class BaseObservable<T> extends Stream<T> implements Sink<T> {
   BaseObservable({required T value})
-      : valueStreamController = BehaviorSubject.seeded(value);
+      : _valueStreamController = BehaviorSubject.seeded(value);
 
-  final BehaviorSubject<T> valueStreamController;
-
-  @override
-  void add(T data) => valueStreamController.add(data);
+  final BehaviorSubject<T> _valueStreamController;
 
   @override
-  Future<void> close() async => await valueStreamController.close();
+  void add(T data) => _valueStreamController.add(data);
+
+  @override
+  Future<void> close() async => await _valueStreamController.close();
 
   @override
   StreamSubscription<T> listen(void Function(T event)? onData,
       {Function? onError, void Function()? onDone, bool? cancelOnError}) {
-    return valueStreamController.listen(
+    return _valueStreamController.listen(
       onData,
       onError: onError,
       onDone: onDone,

@@ -1,3 +1,7 @@
+## [1.1.0] 07.07.2023
+
+* update dependency
+
 ## [1.0.1] 10.07.2022
 
 * update documentation

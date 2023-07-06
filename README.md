@@ -4,16 +4,6 @@
 
 Adapter that is similar to the ObjectAdapter (ArrayObjectAdapter) from the Android Leanback support library.
 
-## Getting started
-You should ensure that you add the `array_object_adapter` as a dependency in your flutter project.
-
-``` yml
-dependencies:
-    array_object_adapter: ^1.0.1
-```
- 
-You should then run flutter packages upgrade or update your packages in IntelliJ.
-
 ## Example Project
 
 There is a pretty sweet example project in the example folder. Check it out. Otherwise, keep reading to get up and running.

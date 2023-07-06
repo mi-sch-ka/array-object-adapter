@@ -7,19 +7,19 @@ repository: https://github.com/mi-sch-ka/array-object-adapter
 issue_tracker: https://github.com/mi-sch-ka/array-object-adapter/issues
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.12.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
   # reactive programming: additional capabilities to dart streams and stream-controllers.
-  rxdart: ^0.27.3
+  rxdart: ^0.27.7
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  test: ^1.6.0
+  test: ^1.17.12
 
 flutter:
   uses-material-design: false

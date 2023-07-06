@@ -37,11 +37,11 @@ class ClassPresenterSelector implements PresenterSelector {
       Type type, PresenterSelector presenterSelector) {
     _typeMap[type] = presenterSelector;
     var innerPresenters = presenterSelector.presenters;
-    innerPresenters.forEach((presenter) {
+    for (var presenter in innerPresenters) {
       if (!_presenters.contains(presenter)) {
         _presenters.add(presenter);
       }
-    });
+    }
     return this;
   }
 
