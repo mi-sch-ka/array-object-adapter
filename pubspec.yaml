@@ -1,7 +1,7 @@
 name: array_object_adapter
 description: >-
   Adapter that is similar to the ObjectAdapter (ArrayObjectAdapter) from the Android Leanback support library.
-version: 1.0.1
+version: 1.1.0
 homepage: https://github.com/mi-sch-ka
 repository: https://github.com/mi-sch-ka/array-object-adapter
 issue_tracker: https://github.com/mi-sch-ka/array-object-adapter/issues
